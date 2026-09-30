@@ -143,10 +143,7 @@ scene graph: 187 nodes · 208 scene-level edges
 │   ├── tokenizer.json
 │   └── tokenizer_config.json
 ├── checkpoint_epoch1/
-│   ├── checkpoint_meta.json
-│   ├── model.safetensors
-│   ├── encoder/
-│   └── tokenizer/
+│   └── checkpoint_meta.json
 ├── training_config.json
 ├── rl_agent_config.json
 ├── sakura_multigame_v1_results.json
