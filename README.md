@@ -14,13 +14,14 @@ GAL（视觉小说）路线可达性预测。给定当前剧情状态、玩家�
 
 ## 快速开始
 
-权重与配置通过 [GitHub Releases](https://github.com/klarkxy/laya-multigame/releases) 分发，不进入 Git history。下载对应版本的 `laya_multigame_v1.tar.gz` 后解压到仓库根目录即可：
+配置、分词器与评测结果已在仓库中，开箱可用。模型权重 `model.safetensors`（614 MB）不进入 Git history，请从 [GitHub Releases](https://github.com/thanatosmoe/Laya-GAL/releases) 下载后放到仓库根目录：
 
 ```text
-model.safetensors        # MultiGame 模型权重（614 MB）
-encoder/config.json      # ModernBERT 编码器配置
-tokenizer/               # 分词器
-checkpoint_epoch1/       # epoch 1 检查点
+.
+├── model.safetensors     # MultiGame 模型权重，从 Releases 下载
+├── encoder/config.json   # ModernBERT 编码器配置
+├── tokenizer/            # 分词器
+└── rl_agent_config.json  # 推理配置
 ```
 
 运行环境：Python 3.12，bf16 推理，单卡 23GB 显存（A10）可完整加载。`training_config.json` 与 `rl_agent_config.json` 分别给出训练超参与推理配置（`max_len` 1024、`head_max_len` 256、`max_prefixes` 6）。
