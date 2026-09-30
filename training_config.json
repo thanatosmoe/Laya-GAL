@@ -1,0 +1,21 @@
+{
+  "task": "reachable",
+  "game": "Sakura + Aokana",
+  "model": "laya-multilingual",
+  "laya_version": "0.3.20",
+  "commit": "23a1752",
+  "train_items": 210200,
+  "calibration_items": 400,
+  "epochs": 1,
+  "micro_batch": 8,
+  "grad_accum": 8,
+  "group_size": 4,
+  "lr_encoder": 2.5e-05,
+  "lr_head": 0.0001,
+  "sigma_start": 0.4,
+  "sigma_end": 0.1,
+  "seed": 20260927,
+  "sakura_train_items": 105100,
+  "aokana_train_items_source": 660,
+  "aokana_train_items_sampled": 105100
+}

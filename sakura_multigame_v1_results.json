@@ -1,0 +1,41 @@
+{
+  "model": "/mnt/workspace/laya_gal/outputs/laya_multigame_v1",
+  "task": "reachable",
+  "game": "Sakura no Uta",
+  "test_items": 13320,
+  "temperatures": [
+    2.610065221786499,
+    1.2,
+    1.2
+  ],
+  "accuracy": 0.9990990990990991,
+  "macro_f1": 0.9990898048093704,
+  "balanced_accuracy": 0.9991051294944999,
+  "mcc": 0.9981796556017155,
+  "gold_A": 5986,
+  "gold_B": 7334,
+  "pred_A": 5988,
+  "pred_B": 7332,
+  "confusion": {
+    "gold_A_pred_A": 5981,
+    "gold_A_pred_B": 5,
+    "gold_B_pred_A": 7,
+    "gold_B_pred_B": 7327
+  },
+  "per_class": {
+    "A": {
+      "precision": 0.9988309953239813,
+      "recall": 0.999164717674574,
+      "f1": 0.9989978286286957,
+      "support": 5986
+    },
+    "B": {
+      "precision": 0.9993180578286961,
+      "recall": 0.9990455413144259,
+      "f1": 0.999181780990045,
+      "support": 7334
+    }
+  },
+  "elapsed_sec": 70.05278420448303,
+  "ms_per_sample": 5.2592180333695975
+}

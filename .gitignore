@@ -1,0 +1,45 @@
+# Model weights (distribute via Git LFS / Hugging Face / ModelScope / Releases)
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.onnx
+
+# Large tokenizers are fine to keep, but allow opting out if you mirror them elsewhere
+# tokenizer/tokenizer.json
+
+# Original commercial game assets -- must never be committed
+*.exe
+*.pak
+*.bnr
+*.dat
+*.arc
+*.xp3
+*.nsa
+*.nsc
+VOICE.PAK
+BGM.PAK
+CHAR.PAK
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments / secrets
+.env
+.env.*
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tooling
+.commandcode/

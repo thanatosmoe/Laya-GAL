@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this project in your research, please cite it as below."
+title: "Laya-GAL: Route Reachability Prediction for Japanese Visual Novels"
+abstract: >-
+  A multi-game, decision-point-aware binary classification model that predicts
+  whether a candidate route in a Japanese visual novel remains reachable after
+  the current player choice, given the story state and current option.
+type: software
+authors:
+  - alias: thanatosmoe
+    name-particle: ""
+repository-code: "https://github.com/thanatosmoe/Laya-GAL"
+url: "https://github.com/thanatosmoe/Laya-GAL"
+license: MIT
+keywords:
+  - visual novel
+  - route reachability
+  - ModernBERT
+  - mmBERT
+  - reverse engineering
+  - game state modeling
+  - decision point
+version: 1.0.0
+date-released: "2026-09-30"

@@ -1,0 +1,13 @@
+{
+  "epoch": 1,
+  "total_epochs": 1,
+  "avg_loss": 0.26294755156759964,
+  "seed": 20260927,
+  "micro_batch": 8,
+  "grad_accum": 8,
+  "group_size": 4,
+  "lr_encoder": 2.5e-05,
+  "lr_head": 0.0001,
+  "sigma_start": 0.4,
+  "sigma_end": 0.1
+}
